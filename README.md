@@ -31,11 +31,11 @@ pip install scapy termcolor
 ⚙️ Usage
 Run the script with root privileges (required for packet sniffing):
 ```bash
-sudo python3 shadowraven.py -i <interface>
+sudo python3 main.py -i <interface>
 ```
 Replace <interface> with your network interface (like eth0, wlan0, enp0s3, etc.)
 ```bash
-sudo python3 shadowraven.py -i wlan0
+sudo python3 main.py -i wlan0
 ```
 
 ⚠️ Disclaimer
